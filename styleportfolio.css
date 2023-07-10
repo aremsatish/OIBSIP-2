@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Open+Sans:ital,wght@0,400;1,600&family=Playfair+Display:ital,wght@1,500&family=Roboto&display=swap');
+*{
+
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ysabeau Office', sans-serif;
+
+}
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("https://c0.wallpaperflare.com/preview/932/979/739/dark-mode-black-late-night-work-inspiration.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align:right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.card:hover{
+    background-color:bisque;
+    border: 2px solid yellowgreen;
+}
+
+.img-fluid:hover{
+       border:10px solid yellowgreen ;
+}
+
+
+.services .icon-box {
+    text-align: center;
+    background: #09203a;
+    padding: 40px 40px;
+    transition: all ease-in-out 0.3s;
+    margin: 10px;
+}
